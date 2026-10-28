@@ -1,0 +1,22 @@
+
+{
+  "type": "minecraft:square",
+  "input": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:sub",
+      "left": 1.0,
+      "right": {
+        "type": "minecraft:abs",
+        "input": {
+          "type": "minecraft:noise",
+          "noise": "wilderness_expanded:volcanic/volcanic_ridges",
+          "xz_scale": 1.0,
+          "y_scale": 0.0
+        }
+      }
+    },
+    "min": 0.0,
+    "max": 1.0
+  }
+}

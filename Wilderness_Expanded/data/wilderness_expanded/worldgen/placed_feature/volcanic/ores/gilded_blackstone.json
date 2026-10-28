@@ -1,0 +1,30 @@
+
+{
+  "feature": "wilderness_expanded:volcanic/ores/gilded_blackstone",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 22
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:offset",
+      "x": 0,
+      "y": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -6,
+        "max_inclusive": -1
+      },
+      "z": 0
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

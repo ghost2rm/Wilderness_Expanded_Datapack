@@ -1,0 +1,63 @@
+{
+  "sea_level": 63,
+
+  "disable_mob_generation": false,
+  "legacy_random_source": false,
+
+  "spawn_target": [],
+
+  "default_block": "minecraft:mud",
+  "default_fluid": {
+    "id": "minecraft:water",
+    "properties": {
+      "level": "0"
+    }
+  },
+
+  "noise": {
+    "min_y": -64,
+    "height": 384
+  },
+
+  "noise_router": {
+    "continents": 0.0,
+    "erosion": 0.0,
+    "depth": 0.0,
+    "ridges": 0.0,
+    "temperature": 0.0,
+    "vegetation": 0.0,
+
+    "chunk_surface_level": 65.0,
+
+    "final_density": "wilderness_expanded:terrain/marshland/river_test_terrain"
+  },
+
+  "material_rule": "wilderness_expanded:biome/marshland/marsh_surface",
+  
+  "debug_functions": [
+    {
+      "label": "Marsh River Mask",
+      "function": "wilderness_expanded:terrain/marshland/river/river_mask"
+    },
+    {
+      "label": "Raw River Noise",
+      "function": "wilderness_expanded:terrain/marshland/river/river_raw"
+    },
+    {
+      "label": "Tributary Mask",
+      "function": "wilderness_expanded:terrain/marshland/tributaries/tributary_mask"
+    },
+    {
+      "label": "River Proximity",
+      "function": "wilderness_expanded:terrain/marshland/elevation/river_proximity"
+    },
+    {
+      "label": "Marsh Elevation",
+      "function": "wilderness_expanded:terrain/marshland/elevation/marsh_elevation"
+    },
+    {
+      "label": "Combined River Carve",
+      "function": "wilderness_expanded:terrain/marshland/combined_river_carve"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:overlay",
+  "features": [
+    "wilderness_expanded:marsh/trees/slender_birch_center",
+    "wilderness_expanded:marsh/trees/slender_birch_nearby"
+  ]
+}

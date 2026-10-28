@@ -1,0 +1,58 @@
+{
+  "feature": "wilderness_expanded:marsh/vegetation/wet/seagrass_short",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 65
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:height_range",
+            "min_inclusive": {
+              "absolute": 56
+            },
+            "max_inclusive": {
+              "absolute": 63
+            }
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water"
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:mud",
+              "minecraft:clay",
+              "minecraft:tuff",
+              "minecraft:gravel",
+              "minecraft:sand",
+              "minecraft:muddy_mangrove_roots"
+            ],
+            "offset": [0, -1, 0]
+          },
+          {
+            "type": "minecraft:would_survive",
+            "state": {
+              "id": "minecraft:seagrass"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

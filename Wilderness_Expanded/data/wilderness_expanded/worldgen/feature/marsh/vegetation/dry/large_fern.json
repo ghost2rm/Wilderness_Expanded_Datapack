@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:block_column",
+  "layers": [
+    {
+      "height": 1,
+      "provider": {
+        "type": "minecraft:simple",
+        "state": {
+          "id": "minecraft:large_fern",
+          "properties": {
+            "half": "lower"
+          }
+        }
+      }
+    },
+    {
+      "height": 1,
+      "provider": {
+        "type": "minecraft:simple",
+        "state": {
+          "id": "minecraft:large_fern",
+          "properties": {
+            "half": "upper"
+          }
+        }
+      }
+    }
+  ],
+  "direction": "up",
+  "allowed_placement": {
+    "type": "minecraft:matching_blocks",
+    "blocks": "minecraft:air"
+  },
+  "prioritize_tip": false
+}

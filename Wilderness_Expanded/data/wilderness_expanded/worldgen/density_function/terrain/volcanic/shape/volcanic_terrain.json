@@ -1,0 +1,18 @@
+
+{
+  "type": "minecraft:div",
+  "left": {
+    "type": "minecraft:sub",
+    "left": "wilderness_expanded:terrain/volcanic/shape/volcanic_height",
+    "right": {
+      "type": "minecraft:gradient",
+      "axis": "y",
+      "tiling": "clamp_to_edge",
+      "from_coordinate": -64,
+      "to_coordinate": 320,
+      "from_value": -64.0,
+      "to_value": 320.0
+    }
+  },
+  "right": 32.0
+}

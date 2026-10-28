@@ -1,0 +1,36 @@
+
+{
+  "type": "minecraft:sequence",
+  "sequence": [
+    "minecraft:bedrock_floor",
+    {
+      "type": "minecraft:condition",
+      "if_true": {
+        "type": "minecraft:above_preliminary_surface"
+      },
+      "then_run": {
+        "type": "minecraft:sequence",
+        "sequence": [
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": "wilderness_expanded:marshland"
+            },
+            "then_run": "wilderness_expanded:biome/marshland/marsh_surface"
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": "wilderness_expanded:volcanic_peaks"
+            },
+            "then_run": "wilderness_expanded:biome/volcanic/volcanic_surface"
+          },
+          "minecraft:overworld/surface"
+        ]
+      }
+    },
+    "minecraft:overworld/underground"
+  ]
+}

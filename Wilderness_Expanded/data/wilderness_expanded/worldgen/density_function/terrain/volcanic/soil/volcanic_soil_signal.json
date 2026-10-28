@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:sub",
+  "left": {
+    "type": "minecraft:add",
+    "left": 150.0,
+    "right": {
+      "type": "minecraft:mul",
+      "left": 6.0,
+      "right": {
+        "type": "minecraft:noise",
+        "noise": "wilderness_expanded:volcanic/volcanic_soil_transition",
+        "xz_scale": 1.0,
+        "y_scale": 0.0
+      }
+    }
+  },
+  "right": {
+    "type": "minecraft:gradient",
+    "axis": "y",
+    "tiling": "clamp_to_edge",
+    "from_coordinate": -64,
+    "to_coordinate": 320,
+    "from_value": -64.0,
+    "to_value": 320.0
+  }
+}

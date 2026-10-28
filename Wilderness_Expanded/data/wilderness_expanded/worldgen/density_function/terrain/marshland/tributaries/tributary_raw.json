@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:noise",
+  "noise": "wilderness_expanded:marshland/rivers/tributary_channel",
+  "xz_scale": 1.0,
+  "y_scale": 0.0,
+  "shift_x": {
+    "type": "minecraft:mul",
+    "left": 22.0,
+    "right": {
+      "type": "minecraft:noise",
+      "noise": "wilderness_expanded:marshland/rivers/tributary_warp_x",
+      "xz_scale": 1.0,
+      "y_scale": 0.0
+    }
+  },
+  "shift_z": {
+    "type": "minecraft:mul",
+    "left": 22.0,
+    "right": {
+      "type": "minecraft:noise",
+      "noise": "wilderness_expanded:marshland/rivers/tributary_warp_z",
+      "xz_scale": 1.0,
+      "y_scale": 0.0
+    }
+  }
+}

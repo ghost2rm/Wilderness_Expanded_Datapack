@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "Wilderness Expanded - Expanded biomes and terrain generation",
+    "min_format": [
+      121,
+      0
+    ],
+    "max_format": [
+      121,
+      0
+    ]
+  }
+}

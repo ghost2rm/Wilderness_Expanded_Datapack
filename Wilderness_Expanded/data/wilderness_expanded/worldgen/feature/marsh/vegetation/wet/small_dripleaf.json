@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:simple_block",
+    "to_place": {
+        "type": "minecraft:weighted",
+        "entries": [
+            {
+                "data": {
+                "id": "minecraft:small_dripleaf",
+                "properties": {
+                    "facing": "north",
+                    "half": "lower",
+                    "waterlogged": "false"
+                }
+                },
+                "weight": 1
+            },
+            {
+                "data": {
+                "id": "minecraft:small_dripleaf",
+                "properties": {
+                    "facing": "south",
+                    "half": "lower",
+                    "waterlogged": "false"
+                }
+                },
+                "weight": 1
+            },
+            {
+                "data": {
+                "id": "minecraft:small_dripleaf",
+                "properties": {
+                    "facing": "east",
+                    "half": "lower",
+                    "waterlogged": "false"
+                }
+                },
+                "weight": 1
+            },
+            {
+                "data": {
+                "id": "minecraft:small_dripleaf",
+                "properties": {
+                    "facing": "west",
+                    "half": "lower",
+                    "waterlogged": "false"
+                }
+                },
+                "weight": 1
+            }
+        ]
+    }
+}

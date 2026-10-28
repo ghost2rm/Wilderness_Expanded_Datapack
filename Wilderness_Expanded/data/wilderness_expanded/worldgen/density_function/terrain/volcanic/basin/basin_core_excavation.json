@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:mul",
+  "left": "wilderness_expanded:terrain/volcanic/basin/basin_core",
+  "right": {
+    "type": "minecraft:add",
+    "left": 9.0,
+    "right": {
+      "type": "minecraft:add",
+      "left": {
+        "type": "minecraft:mul",
+        "left": 40.0,
+        "right": {
+          "type": "minecraft:mul",
+          "left": "wilderness_expanded:terrain/volcanic/shape/volcanic_massif",
+          "right": "wilderness_expanded:terrain/volcanic/shape/volcanic_ridges"
+        }
+      },
+      "right": "wilderness_expanded:terrain/volcanic/shape/volcanic_summit_detail"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:max",
+  "left": {
+    "type": "minecraft:mul",
+    "left": 0.4,
+    "right": "wilderness_expanded:terrain/marshland/river/river_mask"
+  },
+  "right": {
+    "type": "minecraft:mul",
+    "left": 0.175,
+    "right": "wilderness_expanded:terrain/marshland/tributaries/tributary_mask"
+  }
+}

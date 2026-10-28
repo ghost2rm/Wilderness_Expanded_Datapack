@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:weighted_random_selector",
+  "features": [
+    {
+      "weight": 45,
+      "data": {
+        "feature": "wilderness_expanded:volcanic/vegetation/volcanic_short_grass",
+        "placement": []
+      }
+    },
+    {
+      "weight": 15,
+      "data": {
+        "feature": "wilderness_expanded:volcanic/vegetation/volcanic_dead_bush",
+        "placement": []
+      }
+    },
+    {
+      "weight": 20,
+      "data": {
+        "feature": "wilderness_expanded:volcanic/vegetation/volcanic_bush",
+        "placement": []
+      }
+    },
+    {
+      "weight": 15,
+      "data": {
+        "feature": "wilderness_expanded:volcanic/vegetation/volcanic_fern",
+        "placement": []
+      }
+    },
+    {
+      "weight": 5,
+      "data": {
+        "feature": {
+          "type": "minecraft:no_op"
+        },
+        "placement": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:sequence",
+  "sequence": [
+    "wilderness_expanded:biome/volcanic/volcanic_basins",
+    "wilderness_expanded:biome/volcanic/volcanic_rockface"
+  ]
+}

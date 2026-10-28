@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:add",
+  "left": 1.0,
+  "right": {
+    "type": "minecraft:mul",
+    "left": 2.0,
+    "right": {
+      "type": "minecraft:sub",
+      "left": 1.0,
+      "right": "wilderness_expanded:terrain/marshland/elevation/river_proximity"
+    }
+  }
+}

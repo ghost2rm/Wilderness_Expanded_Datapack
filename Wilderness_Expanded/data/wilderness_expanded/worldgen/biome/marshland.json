@@ -1,0 +1,145 @@
+{
+  "attributes": {
+    "minecraft:visual/sky_color": "#78a7ff",
+    "minecraft:visual/fog_color": "#a3a18b",
+    "minecraft:visual/water_fog_color": "#4a3829",
+    "minecraft:visual/water_fog_start_distance": -4.0,
+    "minecraft:visual/water_fog_end_distance": 32.0,
+    "minecraft:visual/fog_start_distance": 60.0,
+    "minecraft:visual/fog_end_distance": 112.0,
+    "minecraft:gameplay/natural_mob_spawns": {
+      "spawn_costs": {},
+      "spawns_by_category": {
+        "creature": [
+          {
+            "type": "minecraft:frog",
+            "weight": 18,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 4
+            }
+          },
+          {
+            "type": "minecraft:turtle",
+            "weight": 12,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 3
+            }
+          },
+          {
+            "type": "minecraft:ocelot",
+            "weight": 3,
+            "count": 1
+          }
+        ],
+        "ambient": [
+          {
+            "type": "minecraft:bat",
+            "weight": 12,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 4
+            }
+          }
+        ],
+        "water_ambient": [
+          {
+            "type": "minecraft:tropical_fish",
+            "weight": 18,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 3,
+              "max_inclusive": 6
+            }
+          }
+        ],
+        "axolotls": [
+          {
+            "type": "minecraft:axolotl",
+            "weight": 2,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            }
+          }
+        ],
+        "monster": [
+          {
+            "type": "minecraft:bogged",
+            "weight": 80,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 3
+            }
+          },
+          {
+            "type": "minecraft:zombie",
+            "weight": 70,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 4
+            }
+          },
+          {
+            "type": "minecraft:witch",
+            "weight": 35,
+            "count": 1
+          }
+        ]
+      }
+    }
+  },
+
+  "has_precipitation": true,
+  "temperature": 0.95,
+  "downfall": 0.85,
+
+  "effects": {
+    "water_color": "#524008",
+    "foliage_color": "#9c9a11",
+    "dry_foliage_color": "#bd9a2a",
+    "grass_color": "#a79d1a"
+  },
+
+  "carvers": [],
+
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [ "wilderness_expanded:marsh/vegetation/dry/tall_grass",
+      "wilderness_expanded:marsh/vegetation/dry/short_grass",
+      "wilderness_expanded:marsh/vegetation/dry/fern",
+      "wilderness_expanded:marsh/vegetation/dry/large_fern",
+      "wilderness_expanded:marsh/vegetation/dry/bank_bush",
+      "wilderness_expanded:marsh/vegetation/dry/bank_short_grass",
+      "wilderness_expanded:marsh/vegetation/dry/bank_firefly_bush",
+      "wilderness_expanded:marsh/vegetation/dry/upland_bush",
+      "wilderness_expanded:marsh/vegetation/wet/small_dripleaf_bank",
+      "wilderness_expanded:marsh/vegetation/wet/small_dripleaf_water",
+      "wilderness_expanded:marsh/vegetation/wet/big_dripleaf_water_bank_low",
+      "wilderness_expanded:marsh/vegetation/wet/big_dripleaf_water_bank_high",
+      "wilderness_expanded:marsh/vegetation/wet/big_dripleaf_water",
+      "wilderness_expanded:marsh/vegetation/flower_colony",
+      "wilderness_expanded:marsh/vegetation/wet/seagrass_short",
+      "wilderness_expanded:marsh/vegetation/wet/seagrass_tall",
+      "wilderness_expanded:marsh/vegetation/wet/kelp_short",
+      "wilderness_expanded:marsh/vegetation/wet/lily_colony",
+      "wilderness_expanded:marsh/trees/slender_birch_stand"
+    ],
+    []
+  ]
+}

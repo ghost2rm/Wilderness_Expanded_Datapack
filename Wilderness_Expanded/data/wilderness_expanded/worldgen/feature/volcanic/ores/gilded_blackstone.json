@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:ore",
+  "size": 5,
+    "discard_chance_on_air_exposure": 0.12,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:blackstone"
+        },
+        "state": {
+          "id": "minecraft:gilded_blackstone"
+        }
+      }
+    ]
+}

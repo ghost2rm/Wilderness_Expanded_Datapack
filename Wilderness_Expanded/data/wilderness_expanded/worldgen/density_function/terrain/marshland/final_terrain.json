@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:add",
+  "left": {
+    "type": "minecraft:sub",
+    "left": {
+      "type": "minecraft:add",
+      "left": "wilderness_expanded:terrain/marshland/base_height",
+      "right": "wilderness_expanded:terrain/marshland/elevated_regions"
+    },
+    "right": "wilderness_expanded:terrain/marshland/river_test_terrain"
+  },
+  "right": "wilderness_expanded:terrain/marshland/detail"
+}

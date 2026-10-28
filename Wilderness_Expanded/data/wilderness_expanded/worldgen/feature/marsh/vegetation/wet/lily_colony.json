@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:overlay",
+  "features": [
+    "wilderness_expanded:marsh/vegetation/wet/lily_pad_patch",
+    "wilderness_expanded:marsh/vegetation/wet/frogspawn_patch"
+  ]
+}

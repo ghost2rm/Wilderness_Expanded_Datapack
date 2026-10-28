@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:sub",
+  "left": {
+    "type": "minecraft:sub",
+    "left": {
+      "type": "minecraft:add",
+      "left": "wilderness_expanded:terrain/volcanic/shape/volcanic_height_base",
+      "right": "wilderness_expanded:terrain/volcanic/shape/volcanic_summit_detail"
+    },
+    "right": "wilderness_expanded:terrain/volcanic/basin/basin_depth"
+  },
+  "right": "wilderness_expanded:terrain/volcanic/basin/basin_core_excavation"
+}

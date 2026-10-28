@@ -1,0 +1,22 @@
+
+{
+  "type": "minecraft:add",
+  "left": 95.0,
+  "right": {
+    "type": "minecraft:add",
+    "left": {
+      "type": "minecraft:mul",
+      "left": 125.0,
+      "right": "wilderness_expanded:terrain/volcanic/shape/volcanic_massif"
+    },
+    "right": {
+      "type": "minecraft:mul",
+      "left": 75.0,
+      "right": {
+        "type": "minecraft:mul",
+        "left": "wilderness_expanded:terrain/volcanic/shape/volcanic_massif",
+        "right": "wilderness_expanded:terrain/volcanic/shape/volcanic_ridges"
+      }
+    }
+  }
+}

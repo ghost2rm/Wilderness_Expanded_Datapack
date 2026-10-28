@@ -1,0 +1,241 @@
+{
+  "type": "minecraft:sequence",
+  "sequence": [
+    {
+      "type": "minecraft:ore_vein",
+      "ore_block": {
+        "id": "minecraft:magma_block"
+      },
+      "raw_ore_block": {
+        "id": "minecraft:magma_block"
+      },
+      "filler_block": {
+        "id": "minecraft:magma_block"
+      },
+      "raw_ore_chance": 0.0,
+      "density": "wilderness_expanded:terrain/volcanic/basin/basin_material_base",
+      "richness": 1.0,
+      "filler_gap": 0.0
+    },
+    {
+      "type": "minecraft:ore_vein",
+      "ore_block": {
+        "id": "minecraft:blackstone"
+      },
+      "raw_ore_block": {
+        "id": "minecraft:blackstone"
+      },
+      "filler_block": {
+        "id": "minecraft:blackstone"
+      },
+      "raw_ore_chance": 0.0,
+      "density": "wilderness_expanded:terrain/volcanic/basin/basin_material_sides",
+      "richness": 1.0,
+      "filler_gap": 0.0
+    },
+    {
+      "type": "minecraft:condition",
+      "if_true": {
+        "type": "minecraft:noise_threshold",
+        "noise": "minecraft:surface",
+        "min_threshold": -0.15,
+        "max_threshold": 2
+      },
+      "then_run": {
+        "type": "minecraft:ore_vein",
+        "ore_block": {
+          "id": "minecraft:smooth_basalt"
+        },
+        "raw_ore_block": {
+          "id": "minecraft:smooth_basalt"
+        },
+        "filler_block": {
+          "id": "minecraft:smooth_basalt"
+        },
+        "raw_ore_chance": 0.0,
+        "density": "wilderness_expanded:terrain/volcanic/basin/basin_material_rim",
+        "richness": 1.0,
+        "filler_gap": 0.0
+      }
+    },
+    {
+      "type": "minecraft:ore_vein",
+      "ore_block": {
+        "id": "minecraft:basalt"
+      },
+      "raw_ore_block": {
+        "id": "minecraft:basalt"
+      },
+      "filler_block": {
+        "id": "minecraft:basalt"
+      },
+      "raw_ore_chance": 0.0,
+      "density": "wilderness_expanded:terrain/volcanic/basin/basin_material_rim",
+      "richness": 1.0,
+      "filler_gap": 0.0
+    },
+    {
+      "type": "minecraft:ore_vein",
+      "ore_block": {
+        "id": "minecraft:basalt"
+      },
+      "raw_ore_block": {
+        "id": "minecraft:basalt"
+      },
+      "filler_block": {
+        "id": "minecraft:basalt"
+      },
+      "raw_ore_chance": 0.0,
+      "density": "wilderness_expanded:terrain/volcanic/shape/volcanic_extrusion",
+      "richness": 1.0,
+      "filler_gap": 0.0
+    },
+    {
+      "type": "minecraft:ore_vein",
+      "ore_block": {
+        "id": "minecraft:tuff"
+      },
+      "raw_ore_block": {
+        "id": "minecraft:tuff"
+      },
+      "filler_block": {
+        "id": "minecraft:tuff"
+      },
+      "raw_ore_chance": 0.0,
+      "density": {
+        "type": "minecraft:clamp",
+        "input": {
+          "type": "minecraft:mul",
+          "left": 83.33333333333333,
+          "right": {
+            "type": "minecraft:sub",
+            "left": "wilderness_expanded:terrain/volcanic/basin/basin_mask",
+            "right": 0.06
+          }
+        },
+        "min": 0,
+        "max": 1
+      },
+      "richness": 1.0,
+      "filler_gap": 0.0
+    },
+    {
+      "type": "minecraft:ore_vein",
+      "ore_block": {
+        "id": "minecraft:gravel"
+      },
+      "raw_ore_block": {
+        "id": "minecraft:gravel"
+      },
+      "filler_block": {
+        "id": "minecraft:gravel"
+      },
+      "raw_ore_chance": 0.0,
+      "density": {
+        "type": "minecraft:clamp",
+        "input": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:mul",
+              "left": 83.33333333333333,
+              "right": {
+                "type": "minecraft:sub",
+                "left": "wilderness_expanded:terrain/volcanic/basin/basin_mask",
+                "right": 0.025
+              }
+            },
+            "min": 0,
+            "max": 1
+          },
+          "right": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:mul",
+              "left": 0.5,
+              "right": {
+                "type": "minecraft:sub",
+                "left": 158,
+                "right": {
+                  "type": "minecraft:gradient",
+                  "axis": "y",
+                  "tiling": "clamp_to_edge",
+                  "from_coordinate": -64,
+                  "to_coordinate": 320,
+                  "from_value": -64,
+                  "to_value": 320
+                }
+              }
+            },
+            "min": 0,
+            "max": 1
+          }
+        },
+        "min": 0,
+        "max": 1
+      },
+      "richness": 1.0,
+      "filler_gap": 0.0
+    },
+    {
+      "type": "minecraft:ore_vein",
+      "ore_block": {
+        "id": "minecraft:coarse_dirt"
+      },
+      "raw_ore_block": {
+        "id": "minecraft:coarse_dirt"
+      },
+      "filler_block": {
+        "id": "minecraft:coarse_dirt"
+      },
+      "raw_ore_chance": 0.0,
+      "density": {
+        "type": "minecraft:clamp",
+        "input": {
+          "type": "minecraft:mul",
+          "left": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:mul",
+              "left": 83.33333333333333,
+              "right": {
+                "type": "minecraft:sub",
+                "left": "wilderness_expanded:terrain/volcanic/basin/basin_mask",
+                "right": 0.005
+              }
+            },
+            "min": 0,
+            "max": 1
+          },
+          "right": {
+            "type": "minecraft:clamp",
+            "input": {
+              "type": "minecraft:mul",
+              "left": 0.5,
+              "right": {
+                "type": "minecraft:sub",
+                "left": 158,
+                "right": {
+                  "type": "minecraft:gradient",
+                  "axis": "y",
+                  "tiling": "clamp_to_edge",
+                  "from_coordinate": -64,
+                  "to_coordinate": 320,
+                  "from_value": -64,
+                  "to_value": 320
+                }
+              }
+            },
+            "min": 0,
+            "max": 1
+          }
+        },
+        "min": 0,
+        "max": 1
+      },
+      "richness": 1.0,
+      "filler_gap": 0.0
+    }
+  ]
+}

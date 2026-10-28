@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:mul",
+  "left": 11.0,
+  "right": "wilderness_expanded:terrain/volcanic/basin/basin_mask"
+}

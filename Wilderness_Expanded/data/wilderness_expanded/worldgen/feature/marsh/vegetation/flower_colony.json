@@ -1,0 +1,205 @@
+
+{
+  "type": "minecraft:weighted_random_selector",
+  "features": [
+    {
+      "weight": 5,
+      "data": {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "to_place": {
+            "type": "minecraft:simple",
+            "state": {
+              "id": "minecraft:azure_bluet"
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 9
+          },
+          {
+            "type": "minecraft:offset",
+            "x": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -3,
+              "max_inclusive": 3
+            },
+            "y": 0,
+            "z": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -3,
+              "max_inclusive": 3
+            }
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          },
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_block_tag",
+                  "tag": "minecraft:air"
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:rooted_dirt"
+                  ],
+                  "offset": [0, -1, 0]
+                },
+                {
+                  "type": "minecraft:height_range",
+                  "min_inclusive": {
+                    "absolute": 63
+                  },
+                  "max_inclusive": {
+                    "absolute": 80
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "weight": 3,
+      "data": {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "to_place": {
+            "type": "minecraft:simple",
+            "state": {
+              "id": "minecraft:blue_orchid"
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 7
+          },
+          {
+            "type": "minecraft:offset",
+            "x": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -3,
+              "max_inclusive": 3
+            },
+            "y": 0,
+            "z": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -3,
+              "max_inclusive": 3
+            }
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          },
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_block_tag",
+                  "tag": "minecraft:air"
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:mud"
+                  ],
+                  "offset": [0, -1, 0]
+                },
+                {
+                  "type": "minecraft:height_range",
+                  "min_inclusive": {
+                    "absolute": 62
+                  },
+                  "max_inclusive": {
+                    "absolute": 80
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "weight": 2,
+      "data": {
+        "feature": {
+          "type": "minecraft:simple_block",
+          "to_place": {
+            "type": "minecraft:simple",
+            "state": {
+              "id": "minecraft:oxeye_daisy"
+            }
+          }
+        },
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 5
+          },
+          {
+            "type": "minecraft:offset",
+            "x": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -3,
+              "max_inclusive": 3
+            },
+            "y": 0,
+            "z": {
+              "type": "minecraft:uniform",
+              "min_inclusive": -3,
+              "max_inclusive": 3
+            }
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+          },
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_block_tag",
+                  "tag": "minecraft:air"
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": "minecraft:grass_block",
+                  "offset": [0, -1, 0]
+                },
+                {
+                  "type": "minecraft:height_range",
+                  "min_inclusive": {
+                    "absolute": 64
+                  },
+                  "max_inclusive": {
+                    "absolute": 80
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

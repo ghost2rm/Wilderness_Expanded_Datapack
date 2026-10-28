@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:mul",
+  "left": {
+    "type": "minecraft:square",
+    "input": {
+      "type": "minecraft:max",
+      "left": {
+        "type": "minecraft:slice",
+        "axis": "y",
+        "coordinate": 0,
+        "input": {
+          "type": "minecraft:noise",
+          "noise": "wilderness_expanded:marshland/broad_elevation",
+          "xz_scale": 0.55,
+          "y_scale": 1.0
+        }
+      },
+      "right": {
+        "type": "minecraft:constant",
+        "value": 0.0
+      }
+    }
+  },
+  "right": {
+    "type": "minecraft:constant",
+    "value": 1.5
+  }
+}

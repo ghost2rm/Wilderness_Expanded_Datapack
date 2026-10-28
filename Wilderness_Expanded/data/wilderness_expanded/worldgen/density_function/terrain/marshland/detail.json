@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:mul",
+    "left": {
+        "type": "minecraft:slice",
+        "axis": "y",
+        "coordinate": 0,
+        "input": {
+            "type": "minecraft:noise",
+            "noise": "wilderness_expanded:marshland/terrain_detail",
+            "xz_scale": 0.7,
+            "y_scale": 1.0
+        }
+    },
+    "right": {
+        "type": "minecraft:constant",
+        "value": 0.18
+    }
+}

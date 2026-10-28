@@ -1,0 +1,159 @@
+{
+  "attributes": {
+    "minecraft:visual/sky_color": "#a94749",
+    "minecraft:visual/fog_color": "#C77982",
+    "minecraft:visual/water_fog_color": "#3e6570",
+    "minecraft:visual/water_fog_start_distance": -4.0,
+    "minecraft:visual/water_fog_end_distance": 96.0,
+    "minecraft:visual/fog_start_distance": 120.0,
+    "minecraft:visual/fog_end_distance": 256.0,
+    "minecraft:gameplay/natural_mob_spawns": {
+      "spawn_costs": {},
+      "spawns_by_category": {
+        "creature": [
+          {
+            "type": "minecraft:wolf",
+            "weight": 18,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 4
+            }
+          },
+          {
+            "type": "minecraft:sulfur_cube",
+            "weight": 3,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            }
+          }
+        ],
+        "ambient": [
+          {
+            "type": "minecraft:bat",
+            "weight": 12,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 4
+            }
+          }
+        ],
+        "water_ambient": [
+          {
+            "type": "minecraft:cod",
+            "weight": 18,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 3,
+              "max_inclusive": 6
+            }
+          }
+        ],
+        "monster": [
+          {
+            "type": "minecraft:magma_cube",
+            "weight": 80,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 3
+            }
+          },
+          {
+            "type": "minecraft:skeleton_horse",
+            "weight": 55,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 4
+            }
+          },
+          {
+            "type": "minecraft:skeleton",
+            "weight": 50,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 4
+            }
+          },
+          {
+            "type": "minecraft:spider",
+            "weight": 45,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "has_precipitation": true,
+  "temperature": 0.95,
+  "downfall": 0.12,
+  "effects": {
+    "water_color": "#3F8294",
+    "foliage_color": "#80624B",
+    "dry_foliage_color": "#493729",
+    "grass_color": "#756044"
+  },
+  "carvers": [],
+  
+"features": [
+  [],
+  [],
+  [],
+  [],
+  [],
+  [],
+  [
+    "minecraft:ore_dirt",
+    "minecraft:ore_gravel",
+    "minecraft:ore_granite_upper",
+    "minecraft:ore_granite_lower",
+    "minecraft:ore_diorite_upper",
+    "minecraft:ore_diorite_lower",
+    "minecraft:ore_andesite_upper",
+    "minecraft:ore_andesite_lower",
+    "minecraft:ore_tuff",
+    "minecraft:ore_coal_upper",
+    "minecraft:ore_coal_lower",
+    "minecraft:ore_iron_upper",
+    "minecraft:ore_iron_middle",
+    "minecraft:ore_iron_small",
+    "minecraft:ore_gold",
+    "minecraft:ore_gold_lower",
+    "minecraft:ore_redstone",
+    "minecraft:ore_redstone_lower",
+    "minecraft:ore_diamond",
+    "minecraft:ore_diamond_medium",
+    "minecraft:ore_diamond_large",
+    "minecraft:ore_diamond_buried",
+    "minecraft:ore_lapis",
+    "minecraft:ore_lapis_buried",
+    "minecraft:ore_copper",
+    "minecraft:ore_emerald",
+    "wilderness_expanded:volcanic/ores/gilded_blackstone",
+    "wilderness_expanded:volcanic/ores/basin_redstone",
+    "wilderness_expanded:volcanic/ores/buried_basin_diamond"
+  ],
+  [],
+  [],
+  [
+    "wilderness_expanded:volcanic/trees/volcanic_dead_tree",
+    "wilderness_expanded:volcanic/trees/volcanic_damaged_tree",
+    "wilderness_expanded:volcanic/trees/volcanic_dark_tree",
+    "wilderness_expanded:volcanic/vegetation/volcanic_cover_grass",
+    "wilderness_expanded:volcanic/vegetation/volcanic_cover_dry",
+    "wilderness_expanded:volcanic/vegetation/volcanic_cover_rooted",
+    "wilderness_expanded:volcanic/vegetation/volcanic_cover_podzol"
+  ],
+  []
+]
+
+}

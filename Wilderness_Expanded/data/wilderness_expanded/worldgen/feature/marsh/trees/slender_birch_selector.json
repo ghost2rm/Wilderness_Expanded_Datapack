@@ -1,0 +1,21 @@
+
+
+{
+  "type": "minecraft:weighted_random_selector",
+  "features": [
+    {
+      "weight": 80,
+      "data": {
+        "feature": "wilderness_expanded:marsh/trees/slender_birch_leafy",
+        "placement": []
+      }
+    },
+    {
+      "weight": 20,
+      "data": {
+        "feature": "wilderness_expanded:marsh/trees/slender_birch_bare",
+        "placement": []
+      }
+    }
+  ]
+}
