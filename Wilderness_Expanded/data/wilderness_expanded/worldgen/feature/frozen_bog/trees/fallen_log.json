@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:fallen_tree",
+  "trunk_provider": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "minecraft:poplar_log"
+        },
+        "weight": 40
+      },
+      {
+        "data": {
+          "id": "minecraft:pale_oak_log"
+        },
+        "weight": 30
+      },
+      {
+        "data": {
+          "id": "minecraft:dark_oak_log"
+        },
+        "weight": 20
+      },
+      {
+        "data": {
+          "id": "minecraft:stripped_dark_oak_log"
+        },
+        "weight": 10
+      }
+    ]
+  },
+  "log_length": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 3,
+    "max_inclusive": 7
+  },
+  "log_decorators": [
+    {
+      "type": "shelf_mushroom",
+      "probability": 0.2
+    },
+    {
+      "type": "minecraft:pale_moss",
+      "ground_probability": 0.3,
+      "trunk_probability": 0.25,
+      "leaves_probability": 0.0
+    }
+  ],
+  "stump_decorators": [
+    {
+      "type": "minecraft:shelf_mushroom",
+      "probability": 0.2
+    }
+  ]
+}

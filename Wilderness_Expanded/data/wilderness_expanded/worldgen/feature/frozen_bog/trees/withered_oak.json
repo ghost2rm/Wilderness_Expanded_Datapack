@@ -1,0 +1,119 @@
+
+{
+  "type": "minecraft:tree",
+  "below_trunk_provider": {
+    "type": "minecraft:rule_based",
+    "rules": [
+      {
+        "if_true": {
+          "type": "minecraft:not",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:cannot_replace_below_tree_trunk"
+          }
+        },
+        "then": {
+          "type": "minecraft:simple",
+          "state": {
+            "id": "minecraft:rooted_dirt"
+          }
+        }
+      }
+    ]
+  },
+  "decorators": [
+    {
+      "type": "shelf_mushroom",
+      "probability": 0.2
+    },
+    {
+      "type": "minecraft:pale_moss",
+      "ground_probability": 0.3,
+      "trunk_probability": 0.25,
+      "leaves_probability": 0.0
+    }
+  ],
+  "foliage_placer": {
+    "type": "minecraft:spruce_foliage_placer",
+    "radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 3
+    },
+    "offset": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 0,
+      "max_inclusive": 1
+    },
+    "trunk_height": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 3
+    }
+  },
+  "foliage_provider": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "minecraft:oak_leaves",
+          "properties": {
+            "persistent": "true"
+          }
+        },
+        "weight": 65
+      },
+      {
+        "data": {
+          "id": "minecraft:pale_oak_leaves",
+          "properties": {
+            "persistent": "true"
+          }
+        },
+        "weight": 35
+      }
+    ]
+  },
+  "ignore_vines": true,
+  "minimum_size": {
+    "type": "minecraft:two_layers_feature_size",
+    "limit": 2,
+    "lower_size": 0,
+    "upper_size": 1
+  },
+  "trunk_placer": {
+    "type": "minecraft:forking_trunk_placer",
+    "base_height": 10,
+    "height_rand_a": 3,
+    "height_rand_b": 2
+  },
+  "trunk_provider": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": {
+          "id": "minecraft:poplar_log"
+        },
+        "weight": 45
+      },
+      {
+        "data": {
+          "id": "minecraft:pale_oak_log"
+        },
+        "weight": 30
+      },
+      {
+        "data": {
+          "id": "minecraft:stripped_dark_oak_log"
+        },
+        "weight": 15
+      },
+      {
+        "data": {
+          "id": "minecraft:dark_oak_log"
+        },
+        "weight": 10
+      }
+    ]
+  }
+}

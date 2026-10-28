@@ -4,7 +4,23 @@
   "first": {
     "type": "minecraft:lerp",
     "alpha": "wilderness_expanded:terrain/overworld/volcanic_climate_mask",
-    "first": "minecraft:overworld/final_density",
+    "first": {
+      "type": "minecraft:lerp",
+      "alpha": {
+        "type": "minecraft:mul",
+        "left": "wilderness_expanded:terrain/overworld/frozen_bog_climate_mask",
+        "right": 0.7
+      },
+      "first": "minecraft:overworld/final_density",
+      "second": {
+        "type": "minecraft:gradient",
+        "axis": "y",
+        "from_coordinate": 48,
+        "to_coordinate": 80,
+        "from_value": 1.0,
+        "to_value": -1.0
+      }
+    },
     "second": "wilderness_expanded:terrain/volcanic/shape/volcanic_terrain"
   },
   "second": "wilderness_expanded:terrain/marshland/river_test_terrain"

@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:min",
+  "left": {
+    "type": "minecraft:max",
+    "left": 0.0,
+    "right": {
+      "type": "minecraft:min",
+      "left": 1.0,
+      "right": {
+        "type": "minecraft:div",
+        "left": {
+          "type": "minecraft:sub",
+          "left": -0.25,
+          "right": "minecraft:overworld/temperature"
+        },
+        "right": 0.2
+      }
+    }
+  },
+  "right": {
+    "type": "minecraft:min",
+    "left": {
+      "type": "minecraft:max",
+      "left": 0.0,
+      "right": {
+        "type": "minecraft:min",
+        "left": 1.0,
+        "right": {
+          "type": "minecraft:div",
+          "left": {
+            "type": "minecraft:sub",
+            "left": "minecraft:overworld/erosion",
+            "right": 0.49
+          },
+          "right": 0.12
+        }
+      }
+    },
+    "right": {
+      "type": "minecraft:max",
+      "left": 0.0,
+      "right": {
+        "type": "minecraft:min",
+        "left": 1.0,
+        "right": {
+          "type": "minecraft:div",
+          "left": {
+            "type": "minecraft:sub",
+            "left": "minecraft:overworld/continents",
+            "right": -0.15
+          },
+          "right": 0.11
+        }
+      }
+    }
+  }
+}

@@ -13,7 +13,7 @@
         "particle": {
           "type": "minecraft:snowflake"
         },
-        "probability": 0.5
+        "probability": 0.025
       }
     ]
   },
@@ -28,5 +28,27 @@
     "grass_color": "#528575"
   },
   "carvers": [],
-  "features": []
+  "features": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [
+            "wilderness_expanded:frozen_bog/trees/withered_oak",
+            "wilderness_expanded:frozen_bog/trees/dying_oak",
+            "wilderness_expanded:frozen_bog/trees/dead_oak",
+            "wilderness_expanded:frozen_bog/trees/dead_stump",
+            "wilderness_expanded:frozen_bog/trees/fallen_log",
+            "wilderness_expanded:frozen_bog/vegetation/dead_bush",
+            "wilderness_expanded:frozen_bog/vegetation/dry_grass"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ]
 }

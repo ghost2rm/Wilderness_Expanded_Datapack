@@ -1,0 +1,51 @@
+
+{
+  "type": "minecraft:block_column",
+  "direction": "up",
+  "allowed_placement": {
+    "type": "minecraft:matching_blocks",
+    "blocks": [
+      "minecraft:air",
+      "minecraft:snow"
+    ]
+  },
+  "prioritize_tip": false,
+  "layers": [
+    {
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 6,
+        "max_inclusive": 10
+      },
+      "provider": {
+        "type": "minecraft:weighted",
+        "entries": [
+          {
+            "data": {
+              "id": "minecraft:poplar_log"
+            },
+            "weight": 25
+          },
+          {
+            "data": {
+              "id": "minecraft:pale_oak_log"
+            },
+            "weight": 20
+          },
+          {
+            "data": {
+              "id": "minecraft:stripped_dark_oak_log"
+            },
+            "weight": 40
+          },
+          {
+            "data": {
+              "id": "minecraft:dark_oak_log"
+            },
+            "weight": 15
+          }
+        ]
+      }
+    }
+  ]
+}
