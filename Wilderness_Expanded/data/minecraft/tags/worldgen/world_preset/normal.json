@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "wilderness_expanded:marshland_test",
+    "wilderness_expanded:wetland_test",
     "wilderness_expanded:volcanic_tests"
   ]
 }
