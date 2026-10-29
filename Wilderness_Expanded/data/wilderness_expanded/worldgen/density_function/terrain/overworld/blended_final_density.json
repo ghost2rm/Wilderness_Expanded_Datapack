@@ -9,16 +9,16 @@
       "alpha": {
         "type": "minecraft:mul",
         "left": "wilderness_expanded:terrain/overworld/frozen_bog_climate_mask",
-        "right": 0.7
+        "right": 0.9
       },
       "first": "minecraft:overworld/final_density",
       "second": {
         "type": "minecraft:gradient",
         "axis": "y",
-        "from_coordinate": 48,
-        "to_coordinate": 80,
-        "from_value": 1.0,
-        "to_value": -1.0
+        "from_coordinate": 58,
+        "to_coordinate": 70,
+        "from_value": 0.8,
+        "to_value": -0.8
       }
     },
     "second": "wilderness_expanded:terrain/volcanic/shape/volcanic_terrain"
