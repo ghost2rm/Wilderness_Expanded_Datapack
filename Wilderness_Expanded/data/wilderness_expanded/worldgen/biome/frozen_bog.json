@@ -1,4 +1,3 @@
-
 {
   "attributes": {
     "minecraft:visual/sky_color": "#c7c7c7",
@@ -23,32 +22,37 @@
   "temperature_modifier": "none",
   "effects": {
     "water_color": "#5c717a",
-    "foliage_color": "#6d8888",
-    "dry_foliage_color": "#4e5b63",
-    "grass_color": "#528575"
+    "foliage_color": "#215353",
+    "dry_foliage_color": "#125058",
+    "grass_color": "#8f989b"
   },
   "carvers": [],
   "features": [
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [],
-        [
-            "wilderness_expanded:frozen_bog/trees/withered_oak",
-            "wilderness_expanded:frozen_bog/trees/dying_oak",
-            "wilderness_expanded:frozen_bog/trees/dead_oak",
-            "wilderness_expanded:frozen_bog/trees/dead_stump",
-            "wilderness_expanded:frozen_bog/trees/fallen_log",
-            "wilderness_expanded:frozen_bog/vegetation/dead_bush",
-            "wilderness_expanded:frozen_bog/vegetation/dry_grass"
-        ],
-        [
-            
-        ]
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "wilderness_expanded:frozen_bog/trees/withered_oak",
+      "wilderness_expanded:frozen_bog/trees/dying_oak",
+      "wilderness_expanded:frozen_bog/trees/dead_oak",
+      "wilderness_expanded:frozen_bog/trees/dead_stump",
+      "wilderness_expanded:frozen_bog/trees/fallen_log",
+      "wilderness_expanded:frozen_bog/vegetation/dead_bush",
+      "wilderness_expanded:frozen_bog/vegetation/dry_grass",
+      "wilderness_expanded:frozen_bog/vegetation/living_shrub_patch",
+      "wilderness_expanded:marsh/vegetation/wet/seagrass_short",
+      "wilderness_expanded:marsh/vegetation/wet/seagrass_tall",
+      "wilderness_expanded:marsh/vegetation/wet/kelp_short"
+    ],
+    [
+      "wilderness_expanded:frozen_bog/surface/ice",
+      "wilderness_expanded:frozen_bog/surface/snow_layer"
     ]
+  ]
 }

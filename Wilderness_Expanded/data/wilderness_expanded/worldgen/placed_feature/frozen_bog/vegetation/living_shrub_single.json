@@ -1,0 +1,50 @@
+{
+  "feature": "wilderness_expanded:frozen_bog/vegetation/living_shrub_single",
+  "placement": [
+    {
+      "type": "minecraft:offset",
+      "x": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -4,
+        "max_inclusive": 4
+      },
+      "y": 0,
+      "z": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -4,
+        "max_inclusive": 4
+      }
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": [
+          "minecraft:grass_block",
+          "minecraft:dirt",
+          "minecraft:podzol",
+          "minecraft:coarse_dirt",
+          "minecraft:rooted_dirt"
+        ]
+      }
+    }
+  ]
+}

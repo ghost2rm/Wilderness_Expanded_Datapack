@@ -1,0 +1,46 @@
+{
+  "feature": "wilderness_expanded:frozen_bog/surface/snow_layer",
+  "placement": [
+    {
+      "type": "minecraft:cuboid",
+      "xz_size": 16,
+      "y_size": 1
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+    },
+    {
+      "type": "minecraft:random_chance",
+      "chance": 0.85
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": [
+          "minecraft:dirt",
+          "minecraft:grass_block",
+          "minecraft:podzol"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
