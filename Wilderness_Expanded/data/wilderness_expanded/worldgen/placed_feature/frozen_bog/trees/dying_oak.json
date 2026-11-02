@@ -2,40 +2,28 @@
   "feature": "wilderness_expanded:frozen_bog/trees/dying_oak",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": 1
-    },
-    {
-      "type": "minecraft:random_chance",
-      "chance": 0.45
+      "type": "minecraft:noise_threshold_count",
+      "noise_level": 0.08,
+      "below_noise": 0,
+      "above_noise": 1
     },
     {
       "type": "minecraft:in_square"
     },
     {
-      "type": "minecraft:surface_water_depth_filter",
-      "max_water_depth": 0
-    },
-    {
       "type": "minecraft:heightmap",
-      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+      "heightmap": "WORLD_SURFACE_WG"
     },
     {
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "offset": [
-          0,
-          -1,
-          0
-        ],
+        "offset": [0, -1, 0],
         "blocks": [
-          "minecraft:grass_block",
-          "minecraft:dirt",
           "minecraft:podzol",
-          "minecraft:mud",
-          "minecraft:coarse_dirt",
-          "minecraft:rooted_dirt"
+          "minecraft:grass_block",
+          "minecraft:rooted_dirt",
+          "minecraft:coarse_dirt"
         ]
       }
     },

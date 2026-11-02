@@ -1,3 +1,4 @@
+
 {
   "type": "minecraft:simple_block",
   "to_place": {
@@ -7,13 +8,25 @@
         "data": {
           "id": "minecraft:short_grass"
         },
-        "weight": 70
+        "weight": 38
+      },
+      {
+        "data": {
+          "id": "minecraft:short_dry_grass"
+        },
+        "weight": 28
+      },
+      {
+        "data": {
+          "id": "minecraft:fern"
+        },
+        "weight": 18
       },
       {
         "data": {
           "id": "minecraft:bush"
         },
-        "weight": 30
+        "weight": 16
       }
     ]
   }
