@@ -1,0 +1,11 @@
+{
+  "feature": "wilderness_expanded:common/ponds/small/sediment_floor",
+  "placement": [
+    {
+      "type": "minecraft:offset",
+      "x": 0,
+      "y": -5,
+      "z": 0
+    }
+  ]
+}

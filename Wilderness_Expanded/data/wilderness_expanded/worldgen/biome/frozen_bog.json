@@ -16,10 +16,10 @@
       }
     ]
   },
-  "temperature": 0.18,
+  "temperature": 0.0,
   "downfall": 0.7,
   "has_precipitation": true,
-  "temperature_modifier": "none",
+  "temperature_modifier": "frozen",
   "effects": {
     "water_color": "#5c717a",
     "foliage_color": "#7c8268",
@@ -38,6 +38,7 @@
     [],
     [],
     [
+      "wilderness_expanded:frozen_bog/ponds/small_pond",
       "wilderness_expanded:frozen_bog/trees/withered_oak",
       "wilderness_expanded:frozen_bog/trees/dying_oak",
       "wilderness_expanded:frozen_bog/trees/dead_oak",
@@ -51,7 +52,8 @@
       "wilderness_expanded:marsh/vegetation/wet/kelp_short"
     ],
     [
-      "wilderness_expanded:frozen_bog/surface/ice"
+      "wilderness_expanded:frozen_bog/surface/ice",
+      "minecraft:freeze_top_layer"
     ]
   ]
 }
