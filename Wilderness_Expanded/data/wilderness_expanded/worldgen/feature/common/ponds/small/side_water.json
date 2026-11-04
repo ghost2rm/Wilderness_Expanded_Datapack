@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:disk",
+  "half_height": 0,
+  "radius": 2,
+  "state_provider": {
+    "type": "minecraft:rule_based",
+    "fallback": {
+      "type": "minecraft:simple",
+      "state": "minecraft:water"
+    },
+    "rules": []
+  },
+  "target": {
+    "type": "minecraft:matching_blocks",
+    "blocks": [
+      "minecraft:air",
+      "minecraft:cave_air"
+    ]
+  }
+}

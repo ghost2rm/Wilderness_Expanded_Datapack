@@ -1,6 +1,6 @@
 {
   "type": "minecraft:disk",
-  "half_height": 0,
+  "half_height": 1,
   "radius": 4,
   "state_provider": {
     "type": "minecraft:rule_based",
@@ -11,13 +11,13 @@
           "data": {
             "id": "minecraft:mud"
           },
-          "weight": 40
+          "weight": 30
         },
         {
           "data": {
             "id": "minecraft:gravel"
           },
-          "weight": 25
+          "weight": 35
         },
         {
           "data": {
@@ -27,7 +27,7 @@
         },
         {
           "data": {
-            "id": "minecraft:andesite"
+            "id": "minecraft:sand"
           },
           "weight": 15
         }
@@ -47,7 +47,12 @@
       "minecraft:gravel",
       "minecraft:clay",
       "minecraft:andesite",
-      "minecraft:packed_mud"
+      "minecraft:packed_mud",
+      "minecraft:stone",
+      "minecraft:tuff",
+      "minecraft:deepslate",
+      "minecraft:air",
+      "minecraft:cave_air"
     ]
   }
 }

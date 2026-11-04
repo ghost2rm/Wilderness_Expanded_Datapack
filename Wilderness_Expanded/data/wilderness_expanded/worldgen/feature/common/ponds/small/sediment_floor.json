@@ -48,7 +48,9 @@
       "minecraft:clay",
       "minecraft:andesite",
       "minecraft:packed_mud",
-      "minecraft:stone"
+      "minecraft:stone",
+      "minecraft:tuff",
+      "minecraft:deepslate"
     ]
   }
 }

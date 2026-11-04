@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:sequence",
+  "features": [
+    "wilderness_expanded:common/ponds/small/side_bank",
+    "wilderness_expanded:common/ponds/small/side_excavate",
+    "wilderness_expanded:common/ponds/small/side_floor",
+    "wilderness_expanded:common/ponds/small/side_water"
+  ]
+}

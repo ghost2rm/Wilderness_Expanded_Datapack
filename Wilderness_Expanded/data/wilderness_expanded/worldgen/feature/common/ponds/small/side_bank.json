@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:disk",
+  "half_height": 1,
+  "radius": 3,
+  "state_provider": {
+    "type": "minecraft:rule_based",
+    "fallback": {
+      "type": "minecraft:weighted",
+      "entries": [
+        {
+          "data": {
+            "id": "minecraft:mud"
+          },
+          "weight": 30
+        },
+        {
+          "data": {
+            "id": "minecraft:gravel"
+          },
+          "weight": 35
+        },
+        {
+          "data": {
+            "id": "minecraft:clay"
+          },
+          "weight": 20
+        },
+        {
+          "data": {
+            "id": "minecraft:sand"
+          },
+          "weight": 15
+        }
+      ]
+    },
+    "rules": []
+  },
+  "target": {
+    "type": "minecraft:matching_blocks",
+    "blocks": [
+      "minecraft:grass_block",
+      "minecraft:dirt",
+      "minecraft:podzol",
+      "minecraft:coarse_dirt",
+      "minecraft:rooted_dirt",
+      "minecraft:mud",
+      "minecraft:gravel",
+      "minecraft:clay",
+      "minecraft:andesite",
+      "minecraft:packed_mud",
+      "minecraft:stone",
+      "minecraft:tuff",
+      "minecraft:deepslate",
+      "minecraft:air",
+      "minecraft:cave_air"
+    ]
+  }
+}

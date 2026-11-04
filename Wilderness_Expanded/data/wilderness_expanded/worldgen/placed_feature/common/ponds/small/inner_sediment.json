@@ -1,0 +1,11 @@
+{
+  "feature": "wilderness_expanded:common/ponds/small/inner_sediment",
+  "placement": [
+    {
+      "type": "minecraft:offset",
+      "x": 0,
+      "y": -3,
+      "z": 0
+    }
+  ]
+}

@@ -1,4 +1,3 @@
-
 {
   "feature": "wilderness_expanded:frozen_bog/vegetation/waterside_dense_patch",
   "placement": [
@@ -44,7 +43,11 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "offset": [0, -1, 0],
+        "offset": [
+          0,
+          -1,
+          0
+        ],
         "blocks": [
           "minecraft:grass_block",
           "minecraft:dirt",
@@ -61,7 +64,11 @@
         "predicates": [
           {
             "type": "minecraft:matching_blocks",
-            "offset": [1, -1, 0],
+            "offset": [
+              1,
+              -1,
+              0
+            ],
             "blocks": [
               "minecraft:water",
               "minecraft:ice"
@@ -69,7 +76,11 @@
           },
           {
             "type": "minecraft:matching_blocks",
-            "offset": [-1, -1, 0],
+            "offset": [
+              -1,
+              -1,
+              0
+            ],
             "blocks": [
               "minecraft:water",
               "minecraft:ice"
@@ -77,7 +88,11 @@
           },
           {
             "type": "minecraft:matching_blocks",
-            "offset": [0, -1, 1],
+            "offset": [
+              0,
+              -1,
+              1
+            ],
             "blocks": [
               "minecraft:water",
               "minecraft:ice"
@@ -85,7 +100,11 @@
           },
           {
             "type": "minecraft:matching_blocks",
-            "offset": [0, -1, -1],
+            "offset": [
+              0,
+              -1,
+              -1
+            ],
             "blocks": [
               "minecraft:water",
               "minecraft:ice"
@@ -93,7 +112,11 @@
           },
           {
             "type": "minecraft:matching_blocks",
-            "offset": [1, -1, 1],
+            "offset": [
+              1,
+              -1,
+              1
+            ],
             "blocks": [
               "minecraft:water",
               "minecraft:ice"
@@ -101,7 +124,11 @@
           },
           {
             "type": "minecraft:matching_blocks",
-            "offset": [1, -1, -1],
+            "offset": [
+              1,
+              -1,
+              -1
+            ],
             "blocks": [
               "minecraft:water",
               "minecraft:ice"
@@ -109,7 +136,11 @@
           },
           {
             "type": "minecraft:matching_blocks",
-            "offset": [-1, -1, 1],
+            "offset": [
+              -1,
+              -1,
+              1
+            ],
             "blocks": [
               "minecraft:water",
               "minecraft:ice"
@@ -117,7 +148,11 @@
           },
           {
             "type": "minecraft:matching_blocks",
-            "offset": [-1, -1, -1],
+            "offset": [
+              -1,
+              -1,
+              -1
+            ],
             "blocks": [
               "minecraft:water",
               "minecraft:ice"

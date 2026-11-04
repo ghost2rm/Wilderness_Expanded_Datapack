@@ -14,7 +14,94 @@
         },
         "probability": 0.008
       }
-    ]
+    ],
+    "minecraft:gameplay/natural_mob_spawns": {
+      "spawn_costs": {},
+      "spawns_by_category": {
+        "creature": [
+          {
+            "type": "minecraft:frog",
+            "weight": 18,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 4
+            }
+          },
+          {
+            "type": "minecraft:fox",
+            "weight": 4,
+            "count": 1
+          },
+          {
+            "type": "minecraft:pig",
+            "weight": 4,
+            "count": 1
+          },
+          {
+            "type": "minecraft:wolf",
+            "weight": 3,
+            "count": 1
+          }
+        ],
+        "ambient": [
+          {
+            "type": "minecraft:bat",
+            "weight": 12,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 4
+            }
+          }
+        ],
+        "axolotls": [
+          {
+            "type": "minecraft:axolotl",
+            "weight": 3,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            }
+          }
+        ],
+        "monster": [
+          {
+            "type": "minecraft:stray",
+            "weight": 40,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 3
+            }
+          },
+          {
+            "type": "minecraft:bogged",
+            "weight": 45,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 3
+            }
+          },
+          {
+            "type": "minecraft:zombie",
+            "weight": 24,
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 4
+            }
+          },
+          {
+            "type": "minecraft:witch",
+            "weight": 14,
+            "count": 1
+          }
+        ]
+      }
+    }
   },
   "temperature": 0.0,
   "downfall": 0.7,
@@ -36,24 +123,27 @@
     [],
     [],
     [],
-    [],
     [
       "wilderness_expanded:frozen_bog/ponds/small_pond",
+      "minecraft:spring_water"
+    ],
+    [
       "wilderness_expanded:frozen_bog/trees/withered_oak",
       "wilderness_expanded:frozen_bog/trees/dying_oak",
       "wilderness_expanded:frozen_bog/trees/dead_oak",
       "wilderness_expanded:frozen_bog/trees/dead_stump",
       "wilderness_expanded:frozen_bog/trees/fallen_log",
-      "wilderness_expanded:frozen_bog/vegetation/wet_meadow_patch",
-      "wilderness_expanded:frozen_bog/vegetation/waterside_dense_patch",
-      "wilderness_expanded:frozen_bog/vegetation/dead_brush_patch",
       "wilderness_expanded:marsh/vegetation/wet/seagrass_short",
       "wilderness_expanded:marsh/vegetation/wet/seagrass_tall",
       "wilderness_expanded:marsh/vegetation/wet/kelp_short"
     ],
     [
-      "wilderness_expanded:frozen_bog/surface/ice",
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "wilderness_expanded:frozen_bog/vegetation/warm_tall_grass",
+      "wilderness_expanded:frozen_bog/vegetation/warm_dry_grass",
+      "wilderness_expanded:frozen_bog/vegetation/wet_meadow_patch",
+      "wilderness_expanded:frozen_bog/vegetation/waterside_dense_patch",
+      "wilderness_expanded:frozen_bog/vegetation/dead_brush_patch"
     ]
   ]
 }

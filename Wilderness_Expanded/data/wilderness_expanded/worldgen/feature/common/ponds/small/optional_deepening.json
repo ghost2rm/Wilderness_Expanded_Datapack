@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:overlay",
+  "features": [
+    "wilderness_expanded:common/ponds/small/deepen_center"
+  ]
+}

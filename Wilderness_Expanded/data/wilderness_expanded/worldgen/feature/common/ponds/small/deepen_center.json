@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:sequence",
+  "features": [
+    "wilderness_expanded:common/ponds/small/inner_excavate",
+    "wilderness_expanded:common/ponds/small/inner_sediment",
+    "wilderness_expanded:common/ponds/small/inner_water"
+  ]
+}

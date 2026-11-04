@@ -1,0 +1,38 @@
+
+{
+  "feature": "wilderness_expanded:common/ponds/small/side_extension",
+  "placement": [
+    {
+      "type": "minecraft:random_chance",
+      "chance": 0.35
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:solid",
+            "offset": [6, -4, 1]
+          },
+          {
+            "type": "minecraft:solid",
+            "offset": [5, -4, 3]
+          },
+          {
+            "type": "minecraft:solid",
+            "offset": [5, -4, -1]
+          },
+          {
+            "type": "minecraft:solid",
+            "offset": [3, -4, 4]
+          },
+          {
+            "type": "minecraft:solid",
+            "offset": [3, -4, -2]
+          }
+        ]
+      }
+    }
+  ]
+}

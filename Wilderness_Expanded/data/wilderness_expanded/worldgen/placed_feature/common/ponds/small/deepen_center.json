@@ -1,0 +1,9 @@
+{
+  "feature": "wilderness_expanded:common/ponds/small/deepen_center",
+  "placement": [
+    {
+      "type": "minecraft:random_chance",
+      "chance": 0.5
+    }
+  ]
+}

@@ -22,7 +22,10 @@
       "minecraft:gravel",
       "minecraft:clay",
       "minecraft:andesite",
-      "minecraft:packed_mud"
+      "minecraft:packed_mud",
+      "minecraft:stone",
+      "minecraft:tuff",
+      "minecraft:deepslate"
     ]
   }
 }

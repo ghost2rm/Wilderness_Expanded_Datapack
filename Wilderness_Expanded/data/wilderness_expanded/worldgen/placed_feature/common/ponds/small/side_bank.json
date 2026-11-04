@@ -1,0 +1,11 @@
+{
+  "feature": "wilderness_expanded:common/ponds/small/side_bank",
+  "placement": [
+    {
+      "type": "minecraft:offset",
+      "x": 3,
+      "y": -2,
+      "z": 1
+    }
+  ]
+}

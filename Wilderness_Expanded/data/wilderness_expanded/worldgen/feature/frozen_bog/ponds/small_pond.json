@@ -1,10 +1,12 @@
 {
   "type": "minecraft:sequence",
   "features": [
+    "wilderness_expanded:common/ponds/small/bank_ring",
     "wilderness_expanded:common/ponds/small/excavate_cap",
     "wilderness_expanded:common/ponds/small/sediment_floor",
     "wilderness_expanded:common/ponds/small/fill_water",
-    "wilderness_expanded:common/ponds/small/bank_ring",
+    "wilderness_expanded:common/ponds/small/optional_side_extension",
+    "wilderness_expanded:common/ponds/small/optional_deepening",
     "wilderness_expanded:frozen_bog/ponds/decorators"
   ]
 }

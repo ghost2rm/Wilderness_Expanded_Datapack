@@ -1,0 +1,11 @@
+{
+  "feature": "wilderness_expanded:common/ponds/small/side_water",
+  "placement": [
+    {
+      "type": "minecraft:offset",
+      "x": 3,
+      "y": -1,
+      "z": 1
+    }
+  ]
+}
