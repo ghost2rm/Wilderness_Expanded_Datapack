@@ -2,39 +2,7 @@
   "type": "minecraft:disk",
   "half_height": 0,
   "radius": 2,
-  "state_provider": {
-    "type": "minecraft:rule_based",
-    "fallback": {
-      "type": "minecraft:weighted",
-      "entries": [
-        {
-          "data": {
-            "id": "minecraft:gravel"
-          },
-          "weight": 35
-        },
-        {
-          "data": {
-            "id": "minecraft:clay"
-          },
-          "weight": 35
-        },
-        {
-          "data": {
-            "id": "minecraft:mud"
-          },
-          "weight": 20
-        },
-        {
-          "data": {
-            "id": "minecraft:dirt"
-          },
-          "weight": 10
-        }
-      ]
-    },
-    "rules": []
-  },
+  "state_provider": "wilderness_expanded:common/ponds/floor_blobs",
   "target": {
     "type": "minecraft:matching_blocks",
     "blocks": [
